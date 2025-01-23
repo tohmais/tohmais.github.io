@@ -1,0 +1,38 @@
+baseURL = 'https://tohmais.github.io/'
+languageCode = 'en'
+DefaultContentLanguage = "en"
+title = "tohmais' site"
+theme = 'risotto'
+author = "tohmais"
+copyright = "© 2025 :: Site by Callum W."
+
+enableInlineShortcodes = true
+
+sectionPagesMenu = "main"
+
+[params]
+noindex = false
+
+[params.theme]
+palette = "base16-kanagawa"
+
+[params.about]
+title = "tohmais' site"
+description = "personal site, blog, and cv. for callum w."
+logo = "🖥️"
+
+[[params.socialLinks]]
+icon = "fa-brands fa-github"
+title = "gitHub"
+url = "https://github.com/tohmais"
+
+
+[[params.socialLinks]]
+icon = "fa-solid fa-envelope"
+title = "email"
+url = "mailto:callum.wishart@protonmail.com"
+
+[[params.socialLinks]]
+icon = "fa-brands fa-twitch"
+title = "twitch"
+url = "https://twitch.tv/tohmais"
